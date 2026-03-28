@@ -14,7 +14,10 @@
 
 <header>
     <nav>
-        <h1 class="logo">Ashmitha P R</h1>
+        <div class="logo">
+            <h1>Ashmitha P R</h1>
+        </div>
+
         <ul class="nav-menu">
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -24,94 +27,185 @@
     </nav>
 </header>
 
+<!-- HOME -->
 <section id="home">
     <div class="intro">
-        <h2>Hi, I'm Ashmitha 👋</h2>
+        <h2>Hi, I'm Ashmitha P R</h2>
         <p class="tagline">
             AI/ML Developer | Full Stack Developer | Data Analytics Enthusiast
         </p>
-        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#projects" class="btn primary-btn">View My Work</a>
     </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about">
-    <h2>About Me</h2>
-    <p>
-        CSE undergraduate with experience in full-stack development, AI/ML, and data analytics.
-        Built scalable systems like SAMS with RBAC workflows and real-time ML projects using YOLO.
-    </p>
-    <p>
-        Experienced in GA4, Firebase analytics, and Responsible AI through internships at TCS and Lascade.
-    </p>
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
 
-    <div class="skills">
-        <span>React</span>
-        <span>Node.js</span>
-        <span>Flask</span>
-        <span>Python</span>
-        <span>MongoDB</span>
-        <span>SQL</span>
-        <span>YOLO</span>
-        <span>Firebase</span>
-        <span>GA4</span>
-        <span>Docker</span>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    CSE undergraduate with hands-on experience in full-stack development,
+                    AI/ML, and data analytics. Built scalable systems like SAMS with RBAC workflows
+                    and real-time ML projects using YOLO.
+                </p>
+
+                <p>
+                    Experienced in GA4, Firebase analytics, and Responsible AI through internships
+                    at TCS and Lascade. Passionate about building impactful tech solutions.
+                </p>
+
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Flask</span>
+                        <span>Python</span>
+                        <span>MongoDB</span>
+                        <span>SQL</span>
+                        <span>YOLO</span>
+                        <span>Firebase</span>
+                        <span>GA4</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects">
-    <h2>Projects</h2>
+    <div class="container">
+        <h2 class="section-title">Top Projects</h2>
 
-    <div class="project">
-        <h3>SAMS - Smart Approval Management System</h3>
-        <p>
-            Role-based approval system with RBAC, multi-stage workflows,
-            request tracking, and PDF generation.
-        </p>
-    </div>
+        <div class="projects-grid">
 
-    <div class="project">
-        <h3>Fall Detection System (YOLOv8)</h3>
-        <p>
-            Real-time fall detection system with 90% accuracy and alert mechanism.
-        </p>
-    </div>
+            <!-- SAMS -->
+            <div class="project">
+                <div class="project-img">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <div class="project-info">
+                    <h3>SAMS - Smart Approval Management System</h3>
+                    <p>
+                        Role-based approval system with RBAC, multi-stage workflows,
+                        request tracking, and PDF generation.
+                    </p>
+                </div>
+            </div>
 
-    <div class="project">
-        <h3>Flask CRUD App</h3>
-        <p>
-            CRUD application using Flask, SQLite, and Jinja templates.
-        </p>
+            <!-- YOLO -->
+            <div class="project">
+                <div class="project-img">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Fall Detection System (YOLOv8)</h3>
+                    <p>
+                        Real-time fall detection system with 90% accuracy and alert mechanism.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Flask -->
+            <div class="project">
+                <div class="project-img">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Flask CRUD Application</h3>
+                    <p>
+                        CRUD app using Flask, SQLite, and Jinja templates.
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
 
+<!-- EXPERIENCE -->
 <section id="experience">
-    <h2>Experience</h2>
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
 
-    <div class="exp">
-        <h3>TCS - AI/ML Intern</h3>
-        <p>Worked on fairness metrics, SHAP explainability, and dashboards.</p>
-    </div>
+        <div class="timeline">
 
-    <div class="exp">
-        <h3>Lascade - Data Analytics Intern</h3>
-        <p>Analyzed GA4 & Firebase data and improved retention.</p>
-    </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>AI/ML Intern</h3>
+                    <h4>TCS - Responsible AI</h4>
+                    <p class="timeline-date">Jul 2025 – Aug 2025</p>
+                    <p>
+                        Worked on fairness metrics, SHAP explainability,
+                        and built a React dashboard for Responsible AI insights.
+                    </p>
+                </div>
+            </div>
 
-    <div class="exp">
-        <h3>IBM SkillsBuild - AI/ML Trainee</h3>
-        <p>Built NLP chatbot and learned ML fundamentals.</p>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Data Analytics Intern</h3>
+                    <h4>Lascade</h4>
+                    <p class="timeline-date">Sep 2024 – Dec 2024</p>
+                    <p>
+                        Analyzed GA4 & Firebase data, identified drop-offs,
+                        and improved user retention strategies.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>AI/ML Trainee</h3>
+                    <h4>IBM SkillsBuild</h4>
+                    <p class="timeline-date">Jul 2024 – Aug 2024</p>
+                    <p>
+                        Built NLP chatbot and learned ML fundamentals.
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: ashmitha.pr04@gmail.com</p>
-    <p>GitHub: github.com/ashmitha20</p>
-    <p>LinkedIn: linkedin.com/in/ashmithapr</p>
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-content">
+            <div class="contact-info">
+
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>ashmitha.pr04@gmail.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <p>github.com/ashmitha20</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>linkedin.com/in/ashmithapr</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Ashmitha P R</p>
+    <div class="footer-content">
+        <p>© 2026 Ashmitha P R</p>
+    </div>
 </footer>
 
 </body>
